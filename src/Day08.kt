@@ -18,14 +18,14 @@ fun main() {
         return signalsAndDigits.sumOf { it.second.filter { digits -> setOf(2, 3, 4, 7).contains(digits.length) }.size }
     }
 
-    fun part2(input: List<String>): Int {
-
-    }
+//    fun part2(input: List<String>): Int {
+//
+//    }
 
     val testInput = readInput("Day08_test")
     println(part1(testInput))
     check(part1(testInput) == 26)
-    check(part2(testInput) == 61229)
+    //check(part2(testInput) == 61229)
 
     val input = readInput("Day08")
     println(part1(input))
