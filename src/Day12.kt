@@ -1,9 +1,3 @@
-import java.util.*
-import kotlin.collections.ArrayDeque
-import kotlin.collections.ArrayList
-import kotlin.collections.HashMap
-import kotlin.math.floor
-
 fun main() {
 
     fun String.isUpper() : Boolean = this.all { it.isUpperCase() }

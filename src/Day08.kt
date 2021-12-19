@@ -1,7 +1,3 @@
-import kotlin.math.abs
-import kotlin.math.floor
-import kotlin.math.pow
-
 fun main() {
 
     fun readSignalsAndDigits(input: List<String>) : List<Pair<List<String>, List<String>>> {

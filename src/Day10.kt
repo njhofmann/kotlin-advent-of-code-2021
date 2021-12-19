@@ -1,5 +1,3 @@
-import java.util.*
-import kotlin.collections.ArrayDeque
 import kotlin.math.floor
 
 fun main() {

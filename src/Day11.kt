@@ -1,12 +1,3 @@
-import java.lang.invoke.SwitchPoint
-import java.util.*
-import java.util.Collections.max
-import kotlin.collections.ArrayDeque
-import kotlin.collections.ArrayList
-import kotlin.collections.HashMap
-import kotlin.collections.HashSet
-import kotlin.math.floor
-
 fun main() {
 
     fun readOctopuses(lines: List<String>) : Array<IntArray> {
